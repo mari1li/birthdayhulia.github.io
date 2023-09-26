@@ -1,0 +1,383 @@
+@import url(https://fonts.goodleapis.com/css?family=Lato:300italic);
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #fdcdc5;
+}
+#cake{
+    display: block;
+    position: relative;
+    margin: -10em auto 0 auto;
+}
+
+.candles{
+    background: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 49%;
+    margin-left: -2.4px;
+    margin-top: -8.3333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.candles::after,
+.candles::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222px;
+}
+
+.candles::after{
+    top: 25%;
+    left: 0;
+}
+
+.candles::before{
+    top: 45%;
+    left: 0;
+}
+
+.fire{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 49%;
+    margin-left: -2.6px;
+    width: 6.6666px;
+    height: 18px;
+}
+
+.fire:nth-child(1){
+    animation: fire 2s 6.5s infinite;
+}
+
+.fire:nth-child(2){
+    animation: fire 1.5s 6.5s infinite;
+}
+
+.fire:nth-child(3){
+    animation: fire 1s 6.5s infinite;
+}
+
+.fire:nth-child(4){
+    animation: fire 0.5s 6.5s infinite;
+}
+
+.fire:nth-child(5){
+    animation: fire 0.2s 6.5s infinite;
+}
+
+.candles1{
+    background: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 47%;
+    margin-left: -2.4px;
+    margin-top: -8.3333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.candles1::after,
+.candles1::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222px;
+}
+
+.candles1::after{
+    top: 25%;
+    left: 0;
+}
+
+.candles1::before{
+    top: 45%;
+    left: 0;
+}
+
+.fire1{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 47%;
+    margin-left: -2.6px;
+    width: 6.6666px;
+    height: 18px;
+}
+
+.fire1:nth-child(1){
+    animation: fire 2s 6.5s infinite;
+}
+
+.fire1:nth-child(2){
+    animation: fire 1.5s 6.5s infinite;
+}
+
+.fire1:nth-child(3){
+    animation: fire 1s 6.5s infinite;
+}
+
+.fire1:nth-child(4){
+    animation: fire 0.5s 6.5s infinite;
+}
+
+.fire1:nth-child(5){
+    animation: fire 0.2s 6.5s infinite;
+}
+
+.candles2{
+    background: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 50.8%;
+    margin-left: -2.4px;
+    margin-top: -8.3333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.candles2::after,
+.candles2::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222px;
+}
+
+.candles2::after{
+    top: 25%;
+    left: 0;
+}
+
+.candles2::before{
+    top: 45%;
+    left: 0;
+}
+
+.fire2{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 50.8%;
+    margin-left: -2.6px;
+    width: 6.6666px;
+    height: 18px;
+}
+
+.fire2:nth-child(1){
+    animation: fire 2s 6.5s infinite;
+}
+
+.fire2:nth-child(2){
+    animation: fire 1.5s 6.5s infinite;
+}
+
+.fire2:nth-child(3){
+    animation: fire 1s 6.5s infinite;
+}
+
+.fire2:nth-child(4){
+    animation: fire 0.5s 6.5s infinite;
+}
+
+.fire2:nth-child(5){
+    animation: fire 0.2s 6.5s infinite;
+}
+
+.candles3{
+    background: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 52.8%;
+    margin-left: -2.4px;
+    margin-top: -8.3333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.candles3::after,
+.candles3::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222px;
+}
+
+.candles3::after{
+    top: 25%;
+    left: 0;
+}
+
+.candles3::before{
+    top: 45%;
+    left: 0;
+}
+
+.fire3{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 52.8%;
+    margin-left: -2.6px;
+    width: 6.6666px;
+    height: 18px;
+}
+
+.fire3:nth-child(1){
+    animation: fire 2s 6.5s infinite;
+}
+
+.fire3:nth-child(2){
+    animation: fire 1.5s 6.5s infinite;
+}
+
+.fire3:nth-child(3){
+    animation: fire 1s 6.5s infinite;
+}
+
+.fire3:nth-child(4){
+    animation: fire 0.5s 6.5s infinite;
+}
+
+.fire3:nth-child(5){
+    animation: fire 0.2s 6.5s infinite;
+}
+
+.candles4{
+    background: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 54.2%;
+    margin-left: -2.4px;
+    margin-top: -8.3333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+}
+
+.candles4::after,
+.candles4::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222px;
+}
+
+.candles4::after{
+    top: 25%;
+    left: 0;
+}
+
+.candles4::before{
+    top: 45%;
+    left: 0;
+}
+
+.fire4{
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: 54.2%;
+    margin-left: -2.6px;
+    width: 6.6666px;
+    height: 18px;
+}
+
+.fire4:nth-child(1){
+    animation: fire 2s 6.5s infinite;
+}
+
+.fire4:nth-child(2){
+    animation: fire 1.5s 6.5s infinite;
+}
+
+.fire4:nth-child(3){
+    animation: fire 1s 6.5s infinite;
+}
+
+.fire4:nth-child(4){
+    animation: fire 0.5s 6.5s infinite;
+}
+
+.fire4:nth-child(5){
+    animation: fire 0.2s 6.5s infinite;
+}
+
+
+@keyframes fire {
+    0%, 100%{
+        background: rgba(254, 248, 97, 0.5);
+        box-shadow: 0 0 40px 10px rgba(248, 233, 207, 0.2);
+        transform: translateY(0) scale(1);
+    }
+    50%{
+        background: rgba(255, 50, 0, 0.1);
+        box-shadow: 0 0 40px 20px rgba(248, 233, 207, 0.2);
+        transform: translateY(-20px) scale(0);
+    }
+}
+
+@keyframes in{
+    to{
+        transform: translateY(0);
+    }
+}
+
+.text{
+    color: #8b6a60;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: italic;
+    text-align: center;
+    display: none;
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishes{
+    text-align: justify;
+    width: 700px;
+}
+
+.container{
+    text-align: center;
+}
